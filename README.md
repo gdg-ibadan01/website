@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# GDG Ibadan Website
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Checkout the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more about Nuxt.
 
 ## Setup
 
