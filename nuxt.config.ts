@@ -1,7 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	devtools: { enabled: true },
-
 	modules: ['@nuxtjs/tailwindcss', '@nuxt/eslint'],
 	eslint: {
 		checker: true,
@@ -15,7 +14,7 @@ export default defineNuxtConfig({
 	},
 	css: [
 		'@/assets/scss/main.scss',
-		'@/assets/scss/custom-font.scss',
+		'@/assets/scss/_font.scss',
 		'@/assets/scss/home.scss',
 	],
 });
