@@ -8,18 +8,18 @@ useSeoMeta({
 <template>
 	<div class="app">
 		<NuxtLayout>
-			<CommonHeader />
+			<!-- <CommonHeader /> -->
 			<NuxtPage />
-			<CommonFooter />
+			<!-- <CommonFooter /> -->
 		</NuxtLayout>
 	</div>
 </template>
 
 <style>
-	.app{
+	/* .app{
 		background-image: url('~/assets/images/hero-bg-1.png');
 		background-repeat: no-repeat;
 		padding-top: 37px;
 		background-size: 100% auto;
-	}
+	} */
 </style>

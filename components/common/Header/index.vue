@@ -8,7 +8,8 @@ const links = [
 </script>
 
 <template>
-	<div
+	<div class="fixed z-[1000] w-full">
+	<div	
 		class="bg-white-primary nav-container flex justify-between items-center w-[90%] lg:w-[75%] mx-auto rounded-[100px] px-[26px] py-[21px]"
 	>
 		<div>
@@ -51,6 +52,7 @@ const links = [
 			</button>
 		</div>
 	</div>
+</div>
 </template>
 
 <style>
