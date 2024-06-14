@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'PPMori';
+    src: local('PPMori-Extralight'),
+    url('../fonts/ppmori/PPMori-Extralight.otf') format('opentype');
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+@font-face {
+    font-family: 'PPMori';
+    src: local('PPMori-Regular'),
+    url('../fonts/ppmori/PPMori-Regular.otf') format('opentype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: 'PPMori';
+    src: local('PPMori-SemiBold'),
+    url('../fonts/ppmori/PPMori-SemiBold.otf') format('opentype');
+    font-style: bold;
+    font-weight: 600;
+}
