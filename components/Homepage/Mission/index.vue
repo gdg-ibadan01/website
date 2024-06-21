@@ -9,21 +9,36 @@
 
 			<div class="flex justify-between flex-wrap">
 				<div
-					class="lg:w-[433px] w-[100%] lg:h-[800px] h-[750px] py-[60px] rounded-[32px] bg-blue-500 px-0 lg:px-[27px] lg:py-[17px] relative mb-[28px] lg:mb-[0] flex flex-col-reverse lg:flex-col">
+					class="lg:w-[433px] w-[100%] lg:h-[800px] h-[750px] py-[60px] rounded-[32px] bg-blue-500 px-0 lg:px-[27px] lg:py-[17px] relative mb-[28px] lg:mb-[0] flex flex-col-reverse lg:flex-col"
+				>
 					<div class="relative w-auto h-[375px]">
 						<div class="lg:w-[243] lg:h-[100%] z-10 absolute lg:right-0 right-[-20px] w-[254px] h-[307px]">
-							<img src="~/assets/images/overlay-img-1.png" alt="" class="w-full h-full object-contain">
+							<img
+								src="~/assets/images/overlay-img-1.png"
+								alt=""
+								class="w-full h-full object-contain"
+							>
 						</div>
 						<div class="lg:w-auto lg:h-[100%] w-[304px] h-[460px] z-20 absolute lg:bottom-[-70px] bottom-[-80px] lg:right-0 right-4">
-							<img src="~/assets/images/overlay-img-2.png" alt="" class="w-full h-full object-contain">
+							<img
+								src="~/assets/images/overlay-img-2.png"
+								alt=""
+								class="w-full h-full object-contain"
+							>
 						</div>
 						<div
-							class="lg:w-[451px] lg:h-[100%] z-30 absolute lg:right-[-40px] right-0 lg:bottom-[-140px] bottom-[-70px] w-[344px] h-[340px]">
-							<img src="~/assets/images/overlay-img-3.png" alt="" class="w-full h-full object-contain">
+							class="lg:w-[451px] lg:h-[100%] z-30 absolute lg:right-[-40px] right-0 lg:bottom-[-140px] bottom-[-70px] w-[344px] h-[340px]"
+						>
+							<img
+								src="~/assets/images/overlay-img-3.png"
+								alt=""
+								class="w-full h-full object-contain"
+							>
 						</div>
 					</div>
 					<div
-						class="lg:absolute static lg:bottom-[82px] bottom-0 max-w-[339px] px-[20px] lg:px-0 mb-5 lg:mb-0">
+						class="lg:absolute static lg:bottom-[82px] bottom-0 max-w-[339px] px-[20px] lg:px-0 mb-5 lg:mb-0"
+					>
 						<h2 class="text-[36px] text-white-primary mb-[18px] font-semibold">
 							About us
 						</h2>
@@ -36,14 +51,23 @@
 				</div>
 				<div class="w-[711px] h='100% flex flex-col justify-between items-center">
 					<div
-						class="bg-orange-500 py-[36px] px-[30px] relative w-[100%] h-[402px] lg:h-auto rounded-[32px] mb-[48px]">
+						class="bg-orange-500 py-[36px] px-[30px] relative w-[100%] h-[402px] lg:h-auto rounded-[32px] mb-[48px]"
+					>
 						<div
-							class="absolute lg:right-[10px] right-[10px] lg:top-[-100px] bottom-[0] w-[186px] lg:w-[352px] lg:h-[393px]">
-							<img src="~/assets/images/review-image.png" alt="" class="w-[100%] object-cover h-[100%]">
+							class="absolute lg:right-[10px] right-[10px] lg:top-[-100px] bottom-[0] w-[186px] lg:w-[352px] lg:h-[393px]"
+						>
+							<img
+								src="~/assets/images/review-image.png"
+								alt=""
+								class="w-[100%] object-cover h-[100%]"
+							>
 						</div>
 						<div class="flex lg:flex-col flex-col-reverse">
 							<div class="w-[159px] lg:w-[216px]">
-								<img src="~/assets/images/map-2.png" alt="">
+								<img
+									src="~/assets/images/map-2.png"
+									alt=""
+								>
 							</div>
 							<div class="mb-5 lg:mb-0">
 								<h2 class="mb-[12px] text-white-primary lg:text-[36px] text-[24px] font-semibold">
@@ -62,8 +86,13 @@
 					<div class="bg-green-500 py-5 lg:h-[360px] h-[440px] px-5 w-[100%] rounded-[32px] flex relative">
 						<div class="flex flex-col lg:justify-end justify-start">
 							<div
-								class="absolute lg:top-[-50px] bottom-[10px] lg:w-[210px] lg:h-[244px] w-[150px] h-[156px] z-30 lg:z-0">
-								<img src="~/assets/images/build.png" alt="" class="w-full h-full object-cover">
+								class="absolute lg:top-[-50px] bottom-[10px] lg:w-[210px] lg:h-[244px] w-[150px] h-[156px] z-30 lg:z-0"
+							>
+								<img
+									src="~/assets/images/build.png"
+									alt=""
+									class="w-full h-full object-cover"
+								>
 							</div>
 
 							<div class="max-w-[401px]">
@@ -79,12 +108,22 @@
 						</div>
 						<div class="absolute top-0 lg:right-[-70px] right-[0px]">
 							<div
-								class="relative lg:top-[-50px] top-[150px] right-[100px] lg:w-[233px] lg:h-[244px] w-[201px] h-[208px]">
-								<img src="~/assets/images/members.png" alt="" class="w-full h-full object-cover">
+								class="relative lg:top-[-50px] top-[150px] right-[100px] lg:w-[233px] lg:h-[244px] w-[201px] h-[208px]"
+							>
+								<img
+									src="~/assets/images/members.png"
+									alt=""
+									class="w-full h-full object-cover"
+								>
 							</div>
 							<div
-								class="relative lg:bottom-[150px] bottom-[0px] z-20 lg:w-[370px] lg:h-[365px] w-[238px] h-[236px]">
-								<img src="~/assets/images/review.png" alt="" class="object-cover w-full h-full">
+								class="relative lg:bottom-[150px] bottom-[0px] z-20 lg:w-[370px] lg:h-[365px] w-[238px] h-[236px]"
+							>
+								<img
+									src="~/assets/images/review.png"
+									alt=""
+									class="object-cover w-full h-full"
+								>
 							</div>
 						</div>
 					</div>
