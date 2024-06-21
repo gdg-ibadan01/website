@@ -45,7 +45,7 @@ const links = [
 				class="p-0"
 			>
 				<img
-					src="~/assets/images/menu.png"
+					src="~/assets/icons/menu.png"
 					alt=""
 				>
 			</button>

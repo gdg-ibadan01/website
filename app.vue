@@ -17,7 +17,7 @@ useSeoMeta({
 
 <style>
 	.app{
-		background-image: url('~/assets/images/hero-bg-1.png');
+		background-image: url('~/assets/images/hero-bg.png');
 		background-repeat: no-repeat;
 		padding-top: 37px;
 		background-size: 100% auto;

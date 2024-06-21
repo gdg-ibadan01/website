@@ -46,26 +46,27 @@
 					Give Us a Follow
 				</p>
 				<div class="flex items-center justify-center lg:gap-[49px] gap-[12px] flex-wrap">
+					<NuxtLink to="/">
+						<img
+							src="../../../assets/icons/slack.png"
+							class="lg:w-[120px] w-[43px] h-[43px] lg:h-[120px] object-cover"
+							alt=""
+						>
+					</NuxtLink>
 					<NuxtLink to="/"><img
-						src="../../../assets/images/slack.png"
+						src="../../../assets/icons/linkedin.png"
 						class="lg:w-[120px] w-[43px] h-[43px] lg:h-[120px] object-cover"
 						alt=""
 					>
 					</NuxtLink>
 					<NuxtLink to="/"><img
-						src="../../../assets/images/linkedin.png"
+						src="../../../assets/icons/twitter.png"
 						class="lg:w-[120px] w-[43px] h-[43px] lg:h-[120px] object-cover"
 						alt=""
 					>
 					</NuxtLink>
 					<NuxtLink to="/"><img
-						src="../../../assets/images/twitter.png"
-						class="lg:w-[120px] w-[43px] h-[43px] lg:h-[120px] object-cover"
-						alt=""
-					>
-					</NuxtLink>
-					<NuxtLink to="/"><img
-						src="../../../assets/images/slack2.png"
+						src="../../../assets/icons/slack2.png"
 						class="lg:w-[120px] w-[43px] h-[43px] lg:h-[120px] object-cover"
 						alt=""
 					>
