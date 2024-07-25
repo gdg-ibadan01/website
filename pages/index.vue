@@ -2,7 +2,11 @@
 </script>
 
 <template>
-	<h1 class="text-red-400 text-3xl">
-		GDG Ibadan
-	</h1>
+	<div class="mt-[90px]">
+		<HomepageHero />
+		<HomepageMission />
+		<HomepageWhatWeOffer />
+		<HomepageUpcomingEvents />
+		<HomepageSponsors />
+	</div>
 </template>
