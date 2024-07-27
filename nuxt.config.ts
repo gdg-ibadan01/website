@@ -16,6 +16,6 @@ export default defineNuxtConfig({
 		'@/assets/scss/main.scss',
 		'@/assets/scss/_font.scss',
 		'@/assets/scss/home.scss',
-		'swiper/swiper-bundle.css'
+		'swiper/swiper-bundle.css',
 	],
 });

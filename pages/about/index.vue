@@ -1,11 +1,11 @@
 <template>
-    <div class="">
-        <AboutHeader />
-        <OurValue />
-        <OurImpact />
-        <Individual />
-        <CustomFooter />
-    </div>
+	<div class="">
+		<AboutHeader />
+		<OurValue />
+		<OurImpact />
+		<Individual />
+		<CustomFooter />
+	</div>
 </template>
 
 <script>
@@ -16,13 +16,13 @@ import Individual from '~/components/AboutPage/Individual/Individual.vue';
 import CustomFooter from '@/components/common/Footer';
 
 export default {
-    components: {
-        AboutHeader,
-        OurValue,
-        OurImpact,
-        Individual,
-        CustomFooter,
-    },
+	components: {
+		AboutHeader,
+		OurValue,
+		OurImpact,
+		Individual,
+		CustomFooter,
+	},
 };
 </script>
 
