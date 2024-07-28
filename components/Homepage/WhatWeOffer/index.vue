@@ -60,10 +60,10 @@
 </template>
 
 <script setup>
-import cardImg1 from '../../../assets/images/icon-1.png';
-import cardImg2 from '../../../assets/images/icon-2.png';
-import cardImg3 from '../../../assets/images/icon-3.png';
-import cardImg4 from '../../../assets/images/icon-4.png';
+import cardImg1 from '../../../assets/icons/icon-1.png';
+import cardImg2 from '../../../assets/icons/icon-2.png';
+import cardImg3 from '../../../assets/icons/icon-3.png';
+import cardImg4 from '../../../assets/icons/icon-4.png';
 </script>
 
 <style>
