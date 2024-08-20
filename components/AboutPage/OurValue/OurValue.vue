@@ -16,12 +16,8 @@
 		<div class="flex justify-between flex-col lg:flex-row gap-[3rem] px-4 lg:px-10 mb-32">
 			<div class="flex flex-col gap-[6rem] justify-between">
 				<div class="flex flex-col justify-center items-center gap-1">
-					<div class="bg-blue-100 w-[52px] h-[52px] rounded-lg flex items-center justify-center">
-						<img
-							src="~/assets/images/aboutimages/vector.png"
-							class="w-[20px] h-[20px]"
-							alt=""
-						>
+					<div class="bg-blue-100 w-[52px] h-[52px] rounded-2xl flex items-center justify-center">
+						<InclusiveIcon />
 					</div>
 					<h2 class="text-black-600 leading-[28px] font-custom font-semibold text-[24px]">
 						Inclusivity
@@ -35,12 +31,8 @@
 				</div>
 
 				<div class="flex flex-col justify-center items-center gap-1">
-					<div class="bg-cinnabar-100 w-[52px] h-[52px] rounded-lg flex items-center justify-center">
-						<img
-							src="~/assets/images/aboutimages/Message.png"
-							class="w-[32px] h-[32px]"
-							alt=""
-						>
+					<div class="bg-cinnabar-100 w-[52px] h-[52px] rounded-2xl flex items-center justify-center">
+						<MessageIcon />
 					</div>
 					<h2 class="text-black-600 leading-[28px] font-custom font-semibold text-[24px]">
 						Continuous Learning
@@ -102,41 +94,30 @@
 
 			<div class="flex flex-col gap-[6rem] justify-between">
 				<div class="flex flex-col justify-center items-center gap-1">
-					<div class="bg-blue-100 w-[52px] h-[52px] rounded-lg flex items-center justify-center">
-						<img
-							src="~/assets/images/aboutimages/vector.png"
-							class="w-[20px] h-[20px]"
-							alt=""
-						>
+					<div class="bg-green-100 w-[52px] h-[52px] rounded-2xl flex items-center justify-center">
+						<HomeIcons />
 					</div>
 					<h2 class="text-black-600 leading-[28px] font-custom font-semibold text-[24px]">
-						Inclusivity
+						Community
 					</h2>
 					<p
 						class="text-black-400 lg:leading-[33px] font-custom font-normal lg:text-[22px]  leading-[25px] text-[18px] text-center"
 					>
-						Everyone is welcome
-						at GDG Ibadan, regardless of skill level or background.
+						We believe in the power of community and collaboration to drive innovation and learning.
 					</p>
 				</div>
 
 				<div class="flex flex-col justify-center items-center gap-1">
-					<div class="bg-cinnabar-100 w-[52px] h-[52px] rounded-lg flex items-center justify-center">
-						<img
-							src="~/assets/images/aboutimages/Message.png"
-							class="w-[32px] h-[32px]"
-							alt=""
-						>
+					<div class="bg-amber-100 w-[52px] h-[52px] rounded-2xl flex items-center justify-center">
+						<PeopleIcon />
 					</div>
 					<h2 class="text-black-600 leading-[28px] font-custom font-semibold text-[24px]">
-						Continuous Learning
+						Networking
 					</h2>
 					<p
 						class="text-black-400 lg:leading-[33px] font-custom font-normal lg:text-[22px]  leading-[25px] text-[18px] text-center"
 					>
-						We encourage
-						continuous learning and provide opportunities for skill development through workshops, events, and
-						resources.
+						Connect with like-minded individuals, industry experts, and mentors to expand your professional network.
 					</p>
 				</div>
 			</div>
@@ -144,10 +125,10 @@
 
 		<div class="containers w-full">
 			<div class="bg-blue-500 section">
-				<div class="flex justify-end lg:mr-32 mr-4">
+				<div class="flex justify-end overflow-hidden">
 					<img
 						src="~/assets/images/aboutimages/image-121.png"
-						class="lg:w-[300px] lg:h-[300px] w-[220px] h-[220px]"
+						class="lg:w-[300px] lg:h-[300px] w-[220px] h-[220px] scroll-img"
 						alt=""
 					>
 				</div>
@@ -160,10 +141,10 @@
 			</div>
 
 			<div class="bg-amber-500 section">
-				<div class="flex justify-end lg:mr-32 mr-4">
+				<div class="flex justify-end overflow-hidden">
 					<img
 						src="~/assets/images/aboutimages/image-121.png"
-						class="lg:w-[300px] lg:h-[300px] w-[220px] h-[220px]"
+						class="lg:w-[300px] lg:h-[300px] w-[220px] h-[220px] scroll-img"
 						alt=""
 					>
 				</div>
@@ -175,10 +156,10 @@
 			</div>
 
 			<div class="bg-cinnabar-500 section">
-				<div class="flex justify-end lg:mr-32 mr-4">
+				<div class="flex justify-end overflow-hidden">
 					<img
 						src="~/assets/images/aboutimages/image-121.png"
-						class="lg:w-[300px] lg:h-[300px] w-[220px] h-[220px]"
+						class="lg:w-[300px] lg:h-[300px] w-[220px] h-[220px] scroll-img"
 						alt=""
 					>
 				</div>
@@ -190,10 +171,10 @@
 			</div>
 
 			<div class="bg-green-500 section">
-				<div class="flex justify-end lg:mr-32 mr-4">
+				<div class="flex justify-end overflow-hidden">
 					<img
 						src="~/assets/images/aboutimages/image-121.png"
-						class="lg:w-[300px] lg:h-[300px] w-[220px] h-[220px]"
+						class="lg:w-[300px] lg:h-[300px] w-[220px] h-[220px] scroll-img"
 						alt=""
 					>
 				</div>
@@ -207,11 +188,11 @@
 	</div>
 </template>
 
-<script>
-export default {
-	components: {
-	},
-};
+<script setup lang="ts">
+import { InclusiveIcon } from '~/icons/inclusive-icon';
+import { MessageIcon } from '~/icons/message-icon';
+import { HomeIcons } from '~/icons/home-icon';
+import { PeopleIcon } from '~/icons/people-icon';
 </script>
 
 <style scoped>
@@ -325,5 +306,33 @@ export default {
   display: inline-block;
   white-space: nowrap;
   animation: scrollText 10s linear infinite;
+}
+
+.scroll-img {
+  animation: scrollImage 10s linear infinite;
+}
+
+@keyframes scrollImage {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-450%);
+  }
+}
+
+@media (max-width: 768px) {
+  .scroll-img {
+    animation-duration: 10s;
+  }
+
+  @keyframes scrollImage {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-170%);
+  }
+}
 }
 </style>
