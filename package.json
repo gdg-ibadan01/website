@@ -13,8 +13,14 @@
   },
   "dependencies": {
     "@nuxt/eslint": "^0.3.13",
+    "@types/react": "^18.3.3",
+    "@vueuse/motion": "^2.2.3",
+    "framer-motion": "^11.2.10",
     "nuxt": "^3.11.2",
+    "react": "^18.3.1",
+    "swiper": "^8.4.7",
     "vue": "^3.4.27",
+    "vue-awesome-swiper": "^5.0.1",
     "vue-router": "^4.3.2"
   },
   "devDependencies": {

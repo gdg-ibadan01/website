@@ -18,6 +18,7 @@ export default defineNuxtConfig({
 		'@/assets/scss/main.scss',
 		'@/assets/scss/_font.scss',
 		'@/assets/scss/home.scss',
+		'swiper/swiper-bundle.css',
 	],
 
 	compatibilityDate: '2024-08-10',
