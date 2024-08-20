@@ -275,7 +275,7 @@ import PeopleIcon from '~/components/icons/PeopleIcon.vue';
   }
 }
 
-.containers {
+/* .containers {
   position: relative;
   height: 500px;
   left: 0;
@@ -340,5 +340,5 @@ import PeopleIcon from '~/components/icons/PeopleIcon.vue';
     transform: translateX(-170%);
   }
 }
-}
+} */
 </style>
