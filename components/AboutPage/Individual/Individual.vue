@@ -13,11 +13,7 @@
 			<div class="flex justify-between items-center flex-col lg:flex-row gap-8 lg:gap-0 mt-12">
 				<div class="bg-white-primary rounded-[32px] w-[280px] h-[386px]">
 					<div class="bg-black-600 w-[40px] h-[40px] rounded-full flex justify-center items-center mt-6 mx-6">
-						<img
-							src="~/assets/images/aboutimages/Group.png"
-							class="w-[25px] h-[25px]"
-							alt=""
-						>
+						<LinkedinIcon />
 					</div>
 					<div>
 						<img
@@ -45,11 +41,7 @@
 
 				<div class="bg-white-primary rounded-[32px] w-[280px] h-[386px]">
 					<div class="bg-black-600 w-[40px] h-[40px] rounded-full flex justify-center items-center mt-6 mx-6">
-						<img
-							src="~/assets/images/aboutimages/Group.png"
-							class="w-[25px] h-[25px]"
-							alt=""
-						>
+						<LinkedinIcon />
 					</div>
 					<div>
 						<img
@@ -77,11 +69,7 @@
 
 				<div class="bg-white-primary rounded-[32px] w-[280px] h-[386px]">
 					<div class="bg-black-600 w-[40px] h-[40px] rounded-full flex justify-center items-center mt-6 mx-6">
-						<img
-							src="~/assets/images/aboutimages/Group.png"
-							class="w-[25px] h-[25px]"
-							alt=""
-						>
+						<LinkedinIcon />
 					</div>
 					<div>
 						<img
@@ -109,11 +97,7 @@
 
 				<div class="bg-white-primary rounded-[32px] w-[280px] h-[386px]">
 					<div class="bg-black-600 w-[40px] h-[40px] rounded-full flex justify-center items-center mt-6 mx-6">
-						<img
-							src="~/assets/images/aboutimages/Group.png"
-							class="w-[25px] h-[25px]"
-							alt=""
-						>
+						<LinkedinIcon />
 					</div>
 					<div>
 						<img
@@ -143,11 +127,8 @@
 	</div>
 </template>
 
-<script>
-export default {
-	components: {
-	},
-};
+<script setup>
+import LinkedinIcon from '~/components/icons/LinkedinIcon.vue';
 </script>
 
 <style scoped>

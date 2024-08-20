@@ -1,9 +1,10 @@
 <template>
-	<div class="bg-aboutHeader w-full h-[100vh] bg-black-600">
-		<div class="py-10">
+	<div class="bg-aboutHeader w-full iphone-xr:h-[50vh] h-[100vh] bg-black-600">
+		<!-- <div class="py-8">
 			<AppHeader />
-		</div>
-		<div class="flex lg:flex-row flex-col gap-5 lg:gap-10 lg:px-[7rem] px-[1rem] lg:mt-20 mt-2">
+		</div> -->
+		<!-- <div class="flex lg:flex-row flex-col gap-5 lg:gap-10 lg:px-[7rem] px-[1rem] lg:mt-16 mt-2"> -->
+		<div class="flex lg:flex-row flex-col gap-5 lg:gap-10 lg:px-[7rem] px-[1rem] lg:pt-[5rem]">
 			<div class="pl-4 lg:pt-32 pt-14 z-30 w-[100%]">
 				<h2 class="text-white-primary font-custom font-semibold lg:text-[77px] text-[30px] lg:leading-[96px] leading-[40px]">
 					Building <br>
@@ -135,16 +136,26 @@
 </template>
 
 <script>
-import AppHeader from '@/components/common/AppHeader';
+// import AppHeader from '@/components/common/AppHeader';
 
 export default {
 	components: {
-		AppHeader,
+		// AppHeader,
 	},
 };
 </script>
 
 <style scoped>
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-device-pixel-ratio: 2) {
+
+  .iphone-xr\:h-\[50vh\] {
+    height: 75vh;
+  }
+}
+
 .bg-aboutHeader {
     background-image: url('@/assets/images/aboutimages/Group-1000004498.png');
     background-size: cover;
