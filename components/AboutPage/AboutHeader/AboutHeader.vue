@@ -60,7 +60,7 @@
 				</div>
 				<div>
 					<img
-						src="~/assets/images/aboutimages/vector-18.png"
+						src="~/assets/images/aboutimages/Vector-18.png"
 						class="z-10 relative lg:bottom-[14.5rem] lg:left-[2rem] bottom-[10rem] left-[11.5rem]"
 						alt=""
 					>
@@ -99,7 +99,7 @@
 					<div class=" relative lg:right-28 lg:bottom-[58.8rem] right-[-6.5rem] bottom-[35rem] z-40">
 						<div class="lg:ml-4">
 							<img
-								src="~/assets/images/aboutimages/vector-14.png"
+								src="~/assets/images/aboutimages/Vector-14.png"
 								class="relative bottom-6 left-4"
 								alt=""
 							>
@@ -117,14 +117,14 @@
 					</div>
 					<div>
 						<img
-							src="~/assets/images/aboutimages/vector-15.png"
+							src="~/assets/images/aboutimages/Vector-15.png"
 							class="z-10 relative lg:bottom-[58rem] lg:right-[8rem] bottom-[35rem] right-[-4rem]"
 							alt=""
 						>
 					</div>
 					<div>
 						<img
-							src="~/assets/images/aboutimages/vector-16.png"
+							src="~/assets/images/aboutimages/Vector-16.png"
 							class="z-10 relative lg:bottom-[76rem] lg:left-[1rem] bottom-[49rem] left-[10rem]"
 							alt=""
 						>
