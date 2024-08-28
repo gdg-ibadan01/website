@@ -32,7 +32,7 @@
 					</div>
 					<div class="relative lg:top-[-9rem] top-[-7.3rem] lg:left-[4rem] left-[2.2rem]">
 						<img
-							src="~/assets/images/aboutimages/vector17.png"
+							src="~/assets/images/aboutimages/Vector17.png"
 							class="z-10"
 							alt=""
 						>
