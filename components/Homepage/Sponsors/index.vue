@@ -76,19 +76,23 @@
 			</div>
 			<div class="lg:w-[55%] w-[100%] mx-auto flex flex-col avatar-section-container">
 				<div class="flex justify-between items-center lg:mb-[26px] mb-[20px] lg:max-w-[450px] w-[90%]">
-					<img
-						src="~/assets/images/avatars/green-avatar.png"
-						class="lg:w-[100px] lg:h-[100px] object-cover w-[50px] h-[50px]"
-						alt=""
-					>
-					<img
-						src="~/assets/images/avatars/blue-avatar.png"
-						class="lg:w-[100px] lg:h-[100px] object-cover w-[50px] h-[50px]"
-						alt=""
-					>
+					<div class="lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] bg-green-500 rounded-full items-center border-[3px] border-white-primary justify-center flex overflow-hidden">
+						<img
+							src="~/assets/images/homeimages/image92.png"
+							class="lg:w-[90px] lg:h-[90px] w-[40px] h-[40px] mt-2"
+							alt=""
+						>
+					</div>
+					<div class="lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] bg-blue-500 rounded-full items-center border-[3px] border-white-primary justify-center flex overflow-hidden">
+						<img
+							src="~/assets/images/homeimages/image108.png"
+							class="lg:w-[89px] lg:h-[89px] w-[40px] h-[40px] mt-2"
+							alt=""
+						>
+					</div>
 				</div>
 				<div class="flex items-center justify-between lg:mb-[35px] mb-[20px] w-[100%]">
-					<div class="bg-white-primary max-w-[450px] rounded-[24px] pt-[30px] px-[23px]">
+					<div class="bg-white-primary max-w-[450px] rounded-[24px] py-[30px] px-[23px]">
 						<h2 class="text-[16px] font-bold mb-1 thank-you-text">
 							Most common among Testifiers
 						</h2>
@@ -97,34 +101,37 @@
 							collaboration on exciting projects. This community truly fosters growth and learning!
 						</p>
 						<div class="flex items-center">
-							<img
-								src="~/assets/images/avatars/group-avatar.png"
-								class="lg:w-[100px] lg:h-[100px] lg:object-contain object-cover w-[50px] h-[50px]"
-								alt=""
-							>
-							<p class="font-bold thank-you-text">
+							<AvatarCircles />
+							<p class="font-bold thank-you-text relative right-8">
 								5000+
 							</p>
 						</div>
 					</div>
 					<div>
-						<img
-							src="~/assets/images/avatars/red-avatar.png"
-							alt=""
-						>
+						<div class="lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] bg-cinnabar-500 rounded-full items-center border-[3px] border-white-primary justify-center flex overflow-hidden">
+							<img
+								src="~/assets/images/homeimages/image85.png"
+								class="lg:w-[81px] lg:h-[81px] w-[36px] h-[36px] mt-2"
+								alt=""
+							>
+						</div>
 					</div>
 				</div>
 				<div class="flex justify-between items-center mb-[30px] lg:max-w-[450px] w-[90%]">
-					<img
-						src="~/assets/images/avatars/yellow-avatar.png"
-						class="lg:w-[100px] lg:h-[100px] object-cover w-[50px] h-[50px]"
-						alt=""
-					>
-					<img
-						src="~/assets/images/avatars/green-avatar-2.png"
-						class="lg:w-[100px] lg:h-[100px] object-cover w-[50px] h-[50px]"
-						alt=""
-					>
+					<div class="lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] bg-yellow-500 rounded-full items-center border-[3px] border-white-primary justify-center flex overflow-hidden">
+						<img
+							src="~/assets/images/homeimages/image116.png"
+							class="lg:w-[86px] lg:h-[86px] w-[39px] h-[39px] mt-2"
+							alt=""
+						>
+					</div>
+					<div class="lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] bg-green-500 rounded-full items-center border-[3px] border-white-primary justify-center flex overflow-hidden">
+						<img
+							src="~/assets/images/homeimages/image71.png"
+							class="lg:w-[85px] lg:h-[85px] w-[38px] h-[38px] mt-2"
+							alt=""
+						>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -132,6 +139,7 @@
 </template>
 
 <script setup>
+import AvatarCircles from '@/components/AvatarCircles/AvatarCircles.vue';
 import lacasera from '~/assets/images/sponsors/lacasera.png';
 import cardify from '~/assets/images/sponsors/cardify.png';
 import heyfood from '~/assets/images/sponsors/heyfood.png';

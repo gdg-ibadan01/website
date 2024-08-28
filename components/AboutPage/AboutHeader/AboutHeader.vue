@@ -1,10 +1,10 @@
 <template>
 	<div class="bg-aboutHeader w-full iphone-xr:h-[50vh] h-[100vh] bg-black-600">
-		<!-- <div class="py-8">
+		<div class="py-8">
 			<AppHeader />
-		</div> -->
-		<!-- <div class="flex lg:flex-row flex-col gap-5 lg:gap-10 lg:px-[7rem] px-[1rem] lg:mt-16 mt-2"> -->
-		<div class="flex lg:flex-row flex-col gap-5 lg:gap-10 lg:px-[7rem] px-[1rem] lg:pt-[5rem]">
+		</div>
+		<div class="flex lg:flex-row flex-col gap-5 lg:gap-10 lg:px-[7rem] px-[1rem] lg:mt-0 mt-2">
+			<!-- <div class="flex lg:flex-row flex-col gap-5 lg:gap-10 lg:px-[7rem] px-[1rem] lg:pt-[5rem]"> -->
 			<div class="pl-4 lg:pt-32 pt-14 z-30 w-[100%]">
 				<h2 class="text-white-primary font-custom font-semibold lg:text-[77px] text-[30px] lg:leading-[96px] leading-[40px]">
 					Building <br>
@@ -16,7 +16,7 @@
 					<div class="bg-green-500 lg:w-[170px] w-[90px] h-[90px] lg:h-[170px] rounded-full flex items-center justify-center z-20">
 						<img
 							src="~/assets/images/aboutimages/image-71.png"
-							class="lg:w-[160px] lg:h-[160px] w-[90px] h-[90px] mt-5 z-20"
+							class="lg:w-[160px] lg:h-[160px] w-[90px] h-[90px] mt-5"
 							alt=""
 						>
 					</div>
@@ -136,11 +136,11 @@
 </template>
 
 <script>
-// import AppHeader from '@/components/common/AppHeader';
+import AppHeader from '@/components/common/AppHeader';
 
 export default {
 	components: {
-		// AppHeader,
+		AppHeader,
 	},
 };
 </script>

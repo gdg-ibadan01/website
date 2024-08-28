@@ -4,11 +4,11 @@ import CustomFooter from '@/components/common/Footer';
 </script>
 
 <template>
-	<div>
-		<div class="py-8">
+	<div class="app">
+		<div class="">
 			<AppHeader />
 		</div>
-		<div class="mt-[120px]">
+		<div class="mt-[150px]">
 			<HomepageHero />
 			<HomepageMission />
 			<HomepageWhatWeOffer />
@@ -18,3 +18,12 @@ import CustomFooter from '@/components/common/Footer';
 		</div>
 	</div>
 </template>
+
+<style scoped>
+.app{
+		background-image: url('~/assets/images/hero-bg.png');
+		background-repeat: no-repeat;
+		padding-top: 37px;
+		background-size: 100% auto;
+	}
+</style>

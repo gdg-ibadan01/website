@@ -23,17 +23,13 @@
 			</div>
 		</div>
 		<div class="relative w-[83%] mx-auto lg:h-[420px] h-[130px]">
-			<marquee
-				behavior="scroll"
-				direction="left"
-				class="flex"
-			>
+			<div>
 				<img
 					src="~/assets/images/students-bg.png"
 					alt="background carousel image"
 					class="w-[100%] h-[100%]"
 				>
-			</marquee>
+			</div>
 			<img
 				src="~/assets/images/students.png"
 				alt=""
