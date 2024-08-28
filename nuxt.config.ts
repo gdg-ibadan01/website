@@ -21,4 +21,6 @@ export default defineNuxtConfig({
 		'@/assets/css/global.css',
 		'swiper/swiper-bundle.css',
 	],
+
+	compatibilityDate: '2024-08-28',
 });
