@@ -4,7 +4,7 @@
 		<OurValue />
 		<OurImpact />
 		<Individual />
-		<!-- <CustomFooter /> -->
+		<CustomFooter />
 	</div>
 </template>
 
@@ -13,7 +13,7 @@ import AboutHeader from '~/components/AboutPage/AboutHeader/AboutHeader.vue';
 import OurValue from '~/components/AboutPage/OurValue/OurValue.vue';
 import OurImpact from '~/components/AboutPage/OurImpact/OurImpact.vue';
 import Individual from '~/components/AboutPage/Individual/Individual.vue';
-// import CustomFooter from '@/components/common/Footer';
+import CustomFooter from '@/components/common/Footer';
 
 export default {
 	components: {
@@ -21,7 +21,7 @@ export default {
 		OurValue,
 		OurImpact,
 		Individual,
-		// CustomFooter,
+		CustomFooter,
 	},
 };
 </script>

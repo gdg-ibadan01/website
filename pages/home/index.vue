@@ -1,12 +1,29 @@
 <script setup>
-import GdgIcon from '~/components/icons/GdgIcon.vue';
+import AppHeader from '@/components/common/AppHeader';
+import CustomFooter from '@/components/common/Footer';
 </script>
 
 <template>
-	<div class="h-[100vh] w-[100vw] flex justify-center items-center">
-		<GdgIcon
-			width="500"
-			height="64"
-		/>
+	<div class="app">
+		<div class="">
+			<AppHeader />
+		</div>
+		<div class="mt-[150px]">
+			<HomepageHero />
+			<HomepageMission />
+			<HomepageWhatWeOffer />
+			<HomepageUpcomingEvents />
+			<HomepageSponsors />
+			<CustomFooter />
+		</div>
 	</div>
 </template>
+
+<style scoped>
+.app{
+		background-image: url('~/assets/images/hero-bg.png');
+		background-repeat: no-repeat;
+		padding-top: 37px;
+		background-size: 100% auto;
+	}
+</style>
