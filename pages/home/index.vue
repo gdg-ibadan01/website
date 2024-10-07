@@ -8,7 +8,7 @@ import CustomFooter from '@/components/common/Footer';
 		<div class="">
 			<AppHeader />
 		</div>
-		<div class="mt-[150px]">
+		<div class="lg:mt-[150px] mt-[80px]">
 			<HomepageHero />
 			<HomepageMission />
 			<HomepageWhatWeOffer />
@@ -20,10 +20,17 @@ import CustomFooter from '@/components/common/Footer';
 </template>
 
 <style scoped>
-.app{
-		background-image: url('~/assets/images/hero-bg.png');
-		background-repeat: no-repeat;
-		padding-top: 37px;
-		background-size: 100% auto;
-	}
+.app {
+  background-image: url("~/assets/images/hero-bg.png");
+  background-repeat: no-repeat;
+  padding-top: 37px;
+  background-size: 100% auto;
+}
+
+@media (max-width: 768px) {
+  .app {
+    background-image: url("~/assets/images/hero-bg-small.png");
+    background-size: cover;
+  }
+}
 </style>

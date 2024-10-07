@@ -5,7 +5,7 @@ import GdgIcon from '~/components/icons/GdgIcon.vue';
 const links = [
 	{ name: 'About', path: '/about' },
 	{ name: 'Events', path: '/events' },
-	{ name: 'JobBoard', path: '/jobboard' },
+	{ name: 'Job Board', path: '/jobboard' },
 	{ name: 'Blog', path: '/blog' },
 ];
 
@@ -19,7 +19,7 @@ const toggleMenu = () => {
 <template>
 	<div class="bg-white-primary nav-container flex justify-between items-center w-[90%] lg:w-[75%] mx-auto rounded-[100px] px-[26px] py-[21px]">
 		<div>
-			<NuxtLink to="/">
+			<NuxtLink to="/home">
 				<GdgIcon />
 			</NuxtLink>
 		</div>

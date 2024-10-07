@@ -6,7 +6,7 @@
 			<img
 				:src="image"
 				alt=""
-				class="block mx-auto mb-[32px]"
+				class="block w-[100px] h-[40px] mx-auto mb-[32px]"
 			>
 			<p class="text-[16px] lg:text-[22px] text-white-primary text-center">
 				{{ name }}

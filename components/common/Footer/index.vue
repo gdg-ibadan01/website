@@ -1,7 +1,7 @@
 <script setup>
-import DiscordIcon from '~/components/icons/DiscordIcon.vue';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import FooterLinkedinIcon from '~/components/icons/FooterLinkedinIcon.vue';
-import SlackIcon from '~/components/icons/SlackIcon.vue';
 import TwitterIcon from '~/components/icons/TwitterIcon.vue';
 </script>
 
@@ -16,7 +16,7 @@ import TwitterIcon from '~/components/icons/TwitterIcon.vue';
 						Learn. Grow. Together.
 					</h2>
 					<p class="text-white-primary text-[14px] lg:text-[16px] mb-[23px]">
-						We strive to create a space that fosters collaboration and learning among tech enthusiasts of
+						We strive to create a space that fosters collaboration and learning among tech professionals of
 						all levels. Whether you're a beginner or an expert, our community welcomes you.
 					</p>
 					<button class="bg-white-primary w-[241px] rounded-[32px] py-[22px] font-semibold">
@@ -31,7 +31,7 @@ import TwitterIcon from '~/components/icons/TwitterIcon.vue';
 							About GDG Ibadan
 						</p>
 					</NuxtLink>
-					<NuxtLink to="/">
+					<!-- <NuxtLink to="/">
 						<p class="text-[14px] text-black-200">
 							Upcoming Events
 						</p>
@@ -45,7 +45,7 @@ import TwitterIcon from '~/components/icons/TwitterIcon.vue';
 						<p class="text-[14px] text-black-200">
 							Job Board
 						</p>
-					</NuxtLink>
+					</NuxtLink> -->
 				</div>
 			</div>
 			<div class="mt-[10px] mb-[90px] max-w-[627px] mx-auto">
@@ -55,7 +55,10 @@ import TwitterIcon from '~/components/icons/TwitterIcon.vue';
 				<div class="flex items-center justify-center lg:gap-[49px] gap-[12px] flex-wrap">
 					<NuxtLink to="/">
 						<div class="w-[43px] h-[43px] lg:w-[120px] lg:h-[120px] rounded-full bg-amber-500 flex justify-center items-center">
-							<SlackIcon />
+							<FontAwesomeIcon
+								class="w-[57px] h-[57px] text-white-primary"
+								:icon="faInstagram"
+							/>
 						</div>
 					</NuxtLink>
 					<NuxtLink to="/">
@@ -68,11 +71,11 @@ import TwitterIcon from '~/components/icons/TwitterIcon.vue';
 							<TwitterIcon />
 						</div>
 					</NuxtLink>
-					<NuxtLink to="/">
+					<!-- <NuxtLink to="/">
 						<div class="w-[43px] h-[43px] lg:w-[120px] lg:h-[120px] rounded-full bg-green-500 flex justify-center items-center">
 							<DiscordIcon />
 						</div>
-					</NuxtLink>
+					</NuxtLink> -->
 				</div>
 			</div>
 			<div class="relative w-full bottom-0 left-0 z-30">
@@ -80,9 +83,6 @@ import TwitterIcon from '~/components/icons/TwitterIcon.vue';
 					src="../../../assets/images/gdg-bottom-text.png"
 					alt="GDG Ibadan bottom text"
 				>
-				<!-- <h1 class="text-[185px] font-normal text-white-primary w-[100%]">
-					GDG Ibadan
-				</h1> -->
 			</div>
 		</div>
 		<div class="text-black-600 gap-y-[20px] lg:gap-[0px] flex items-center justify-center lg:justify-between flex-wrap w-[90%] lg:w-[80%] mx-auto text-[14px]">

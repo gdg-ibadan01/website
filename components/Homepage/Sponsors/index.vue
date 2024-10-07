@@ -2,55 +2,59 @@
 	<div class="bg-black-600 py-[92px] px-[23px] lg:px-[100px] w-[100%] sponsors-container">
 		<div class="max-w-[864px] mb-[27px]">
 			<h2 class="text-white-primary text-[28px] lg:text-[46px]">
-				To our Sponsors and thought leaders.
+				To our sponsors and thought leaders,
 			</h2>
 			<h2 class="text-white-primary text-[28px] lg:text-[46px]">
 				We Say <span class="thank-you-text font-semibold">a
-					Big Thanks You</span>
+					Big Thank You</span>
 			</h2>
 			<p class="text-[16px] lg:text-[22px] text-white-primary">
 				We are excited to bring you an incredible
-				experince, made possible
-				by the supports of our Sponsors
+				experience, made possible
+				by the support of our sponsors.
 			</p>
 		</div>
 		<div class="sponsor-cards-container w-[100%] pb-[72px]">
 			<div class="flex justify-between items-center flex-wrap gap-y-[38px]">
-				<CardsSponsorCard
+				<!-- <CardsSponsorCard
 					name="Lacasera.africa"
 					:image="lacasera"
-				/>
+				/> -->
 				<CardsSponsorCard
 					name="Cardify.com"
 					:image="cardify"
 				/>
 				<CardsSponsorCard
-					name="Heyfood.ng"
-					:image="heyfood"
+					name="Turing.com"
+					:image="turing"
 				/>
 				<CardsSponsorCard
-					name="Heyfood.ng"
-					:image="heyfood"
+					name="Youverify.com"
+					:image="youverify"
 				/>
 				<CardsSponsorCard
 					name="Alt School"
 					:image="altschool"
 				/>
 				<CardsSponsorCard
-					name="Halal.com"
-					:image="halal"
+					name="Heyfood.ng"
+					:image="heyfood"
+				/>
+				<CardsSponsorCard
+					name="Ship.com"
+					:image="ship"
+				/>
+				<CardsSponsorCard
+					name="Digitalocean.com"
+					:image="digitalocean"
+				/>
+				<CardsSponsorCard
+					name="Codemagic.com"
+					:image="codemagic"
 				/>
 				<CardsSponsorCard
 					name="Halal.com"
 					:image="halal"
-				/>
-				<CardsSponsorCard
-					name="Lacasera.africa"
-					:image="lacasera"
-				/>
-				<CardsSponsorCard
-					name="Lacasera.africa"
-					:image="lacasera"
 				/>
 				<CardsSponsorCard
 					name="1App.ng"
@@ -140,12 +144,17 @@
 
 <script setup>
 import AvatarCircles from '@/components/AvatarCircles/AvatarCircles.vue';
-import lacasera from '~/assets/images/sponsors/lacasera.png';
-import cardify from '~/assets/images/sponsors/cardify.png';
+import halal from '~/assets/images/sponsors/SuegFTtO_400x400 (1)@2x.svg';
+import cardify from '~/assets/images/sponsors/Cardify-Africa-Logo-Black-544-by-180.svg';
+import youverify from '~/assets/images/sponsors/logo_iffgzd1.svg';
+import codemagic from '~/assets/images/sponsors/codemagic1.svg';
+// import cardify from '~/assets/images/sponsors/Cardify.png';
 import heyfood from '~/assets/images/sponsors/heyfood.png';
-import altschool from '~/assets/images/sponsors/altschool.png';
-import halal from '~/assets/images/sponsors/halal.png';
-import oneapp from '~/assets/images/sponsors/1app.png';
+import altschool from '~/assets/images/sponsors/altschool-africa-logo-4365C6B160-seeklogo.com@1.5x.svg';
+import ship from '~/assets/images/sponsors/shiip@1.5x.svg';
+import digitalocean from '~/assets/images/sponsors/digitalocean-2.svg';
+import turing from '~/assets/images/sponsors/1649160813047@1.5x.svg';
+import oneapp from '~/assets/images/sponsors/1appnewlogo.8e95dfd0@1.5x.svg';
 </script>
 
 <style>

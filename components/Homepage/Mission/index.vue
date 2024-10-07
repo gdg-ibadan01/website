@@ -38,7 +38,7 @@
 							<h2
 								class="font-bold lg:text-[43px] lg:leading-[45px] text-[29px] leading-[35px] text-black-600 transform rotate-[60deg]"
 							>
-								NO. 1 Tech Community in Ibadan
+								No. 1 Tech Community in Ibadan
 							</h2>
 						</div>
 					</div>
@@ -50,7 +50,7 @@
 						</h2>
 						<p class="text-white-primary text-[18px] leading-[26px]">
 							We're a family of passionate learners and experts. Whether you're
-							diving into coding for the first time or refining your skills,
+							diving into tech for the first time or refining your skills,
 							you'll find a welcoming space here to collaborate, discover, and
 							thrive.
 						</p>
@@ -228,9 +228,9 @@ import CommunityLogoIcon from '~/components/icons/CommunityLogoIcon.vue';
   padding: 100px 77px;
   background: linear-gradient(to bottom, #fef3f2, #fef3f200);
 }
-.bottom-text-container {
+/* .bottom-text-container {
   border-right: 5px solid #84261e;
-}
+} */
 .bottom-text-container h2 {
   background: linear-gradient(to right, #ea4335, #84261e);
   -webkit-background-clip: text;

@@ -12,7 +12,7 @@
 						</h3>
 					</div>
 					<p class="font-normal lg:text-[22px] lg:leading-[33px] text-[20px] leading-[25px] text-white-primary pt-[13px]">
-						Put your skills to the test and collaborate with peers in hackathons and coding competitions.
+						Join industry experts as they discuss the latest innovations in AI, cloud computing, and more.
 					</p>
 				</div>
 				<div class="bg-green-500 w-[404px] lg:h-[230px] h-[200px] pt-[20px] pl-[20px] rounded-3xl">
@@ -40,10 +40,11 @@
 						What We Offer as a Community
 					</h2>
 					<div
-						class="backend-developer text-center py-[10px] px-[20px] text-white-primary font-semibold rounded-[45px]"
+						:class="['role-box', role.className]"
+						class="text-center py-[10px] px-[20px] text-white-primary font-semibold rounded-[45px]"
 					>
 						<p class="lg:text-[36px] text-[16px]">
-							Backend Developers
+							{{ role.name }}
 						</p>
 					</div>
 				</div>
@@ -60,7 +61,7 @@
 							<InclusiveIcon />
 						</div>
 						<h3 class="text-white-primary lg:text-[24px] lg:leading-[28px] text-[18px] leading-[24px] font-semibold">
-							Hackathons & Coding Challenges
+							Hackathons & Tech Challenges
 						</h3>
 					</div>
 					<p class="font-normal lg:text-[22px] lg:leading-[33px] text-[20px] leading-[25px] text-white-primary pt-[13px]">
@@ -101,10 +102,58 @@
 </template>
 
 <script setup>
+import { ref, onMounted } from 'vue';
 import HomeIcon from '~/components/icons/HomeIcon.vue';
 import InclusiveIcon from '~/components/icons/InclusiveIcon.vue';
 import PeopleIcon from '~/components/icons/PeopleIcon.vue';
 import MessageIcon from '~/components/icons/MessageIcon.vue';
+
+const roles = [
+	{
+		name: 'Backend Developers',
+		className: 'backend-developer',
+	},
+	{
+		name: 'QA Testers',
+		className: 'qa-testers',
+	},
+	{
+		name: 'Product Managers',
+		className: 'product-managers',
+	},
+	{
+		name: 'Digital Marketers',
+		className: 'digital-marketers',
+	},
+	{
+		name: 'Data Analysts',
+		className: 'data-analysts',
+	},
+	{
+		name: '2D/3D Animators',
+		className: 'animators',
+	},
+	{
+		name: 'Content Writers',
+		className: 'content-writers',
+	},
+	{
+		name: 'No-Code Developer',
+		className: 'no-code-developer',
+	},
+];
+
+const role = ref(roles[0]);
+let roleIndex = 0;
+
+const changeRole = () => {
+	roleIndex = (roleIndex + 1) % roles.length;
+	role.value = roles[roleIndex];
+};
+
+onMounted(() => {
+	setInterval(changeRole, 3000); // Changes every 3 seconds
+});
 </script>
 
 <style>
@@ -114,7 +163,7 @@ import MessageIcon from '~/components/icons/MessageIcon.vue';
         background-size: contain;
         background-position: top 50px center;
     }
-    .backend-developer{
+    /* .backend-developer{
         background: linear-gradient(to right, #EA4335, #84261E);
         max-width: 392px;
         margin: auto;
@@ -125,5 +174,49 @@ import MessageIcon from '~/components/icons/MessageIcon.vue';
         .backend-developer{
             width: 200px;
         }
+    } */
+
+	.role-box {
+   max-width: 392px;
+  margin: auto;
+  transform: rotate(-6.45deg);
+}
+
+@media screen and (max-width: 768px){
+        .role-box{
+            width: 200px;
+        }
     }
+
+.backend-developer {
+  background: linear-gradient(to right, #EA4335, #84261E);
+}
+
+.qa-testers {
+  background: linear-gradient(to right, #4285F4, #264D8E);
+}
+
+.product-managers {
+  background: linear-gradient(to right, #FBBC04, #957002);
+}
+
+.digital-marketers {
+  background: linear-gradient(to right, #1BCC76, #0E663B);
+}
+
+.data-analysts {
+  background: linear-gradient(to right, #4285F4, #264D8E);
+}
+
+.animators {
+  background: linear-gradient(to right, #FBBC04, #957002);
+}
+
+.content-writers {
+  background: linear-gradient(to right, #EA4335, #84261E);
+}
+
+.no-code-developer {
+  background: linear-gradient(to right, #1BCC76, #0E663B);
+}
 </style>
